@@ -26,7 +26,8 @@ angular.module('starter', ['ionic'])
             })
             .state('contactdetails', {
                 url: '/contactdetails/:index',
-                templateUrl: 'templates/contactdetails.html'
+                templateUrl: 'templates/contactdetails.html',
+                controller: 'ContactDetailsCtrl'
             });
         $urlRouterProvider.otherwise('/contacts');
     });

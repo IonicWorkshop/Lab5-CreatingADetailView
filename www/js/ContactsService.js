@@ -11,6 +11,9 @@ angular.module('starter')
                 items = response.data.results;
                 return items;
             });
+        },
+        GetContact: function(index) {
+            return items[index];
         }
     }
 });
